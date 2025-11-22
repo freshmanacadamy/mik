@@ -1,17 +1,7 @@
 {
-  "name": "ju-registration-bot",
+  "name": "ju-marketplace-bot-vercel",
   "version": "1.0.0",
-  "description": "JU Registration Bot with all features",
-  "main": "api/bot.js",
-  "scripts": {
-    "dev": "nodemon api/bot.js",
-    "start": "node api/bot.js"
-  },
   "dependencies": {
-    "telegraf": "^4.16.3",
-    "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+    "node-telegram-bot-api": "^0.64.0"
   }
 }
